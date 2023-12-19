@@ -20,7 +20,7 @@ This command should also install all required dependencies.
 
 The file submitpy.sh is a bash script intended to be submitted to a SLURM scheduler. Replace Lines 2-12 as needed to meet requirements for your cluster. 
 
-In stitchCM1.py, Lines 230-258 are user input parameters. These parameters are
+In stitchCM1.py, Lines 284-309 are user input parameters. These parameters are
 
 fdir:               Directory where data lives.
 exfile:             Directory where an example of fully stitched output file (like cm1out_000001.nc) lives.
