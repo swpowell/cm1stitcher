@@ -31,18 +31,18 @@ import multiprocessing as mp
 
 # ***********************************************************************
 
-def writepkl(var,savename):
-    import pickle
+# def writepkl(var,savename):
+#     import pickle
 
-    with open(savename,'wb') as h:
-        pickle.dump(var,h,pickle.HIGHEST_PROTOCOL)
+#     with open(savename,'wb') as h:
+#         pickle.dump(var,h,pickle.HIGHEST_PROTOCOL)
 
-def readpkl(fname):
-    import pickle
+# def readpkl(fname):
+#     import pickle
 
-    with open(fname,'rb') as h:
-        data = pickle.load(h)
-    return data
+#     with open(fname,'rb') as h:
+#         data = pickle.load(h)
+#     return data
 
 # ***********************************************************************
 
